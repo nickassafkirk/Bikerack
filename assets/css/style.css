@@ -1,3 +1,7 @@
+body{
+    background-color: #F7F7F7;
+}
+
 .intro{
     text-align: center;
     Margin: 20px auto 50px auto;
@@ -9,3 +13,89 @@
     width: 100%;
     object-fit: scale-down;
 }
+
+.trust{
+    width: 90%;
+    margin: 5% auto;
+    background-color: #fff;
+}
+
+.trust-icons{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.trust-icons img{
+    height: 100px;
+    width: 100px;
+}
+
+.welcome{
+    width: 90%;
+    Background-color: #292621; 
+    color: white; 
+    text-align: center; 
+    margin: 5% auto;
+    padding: 5%;
+}
+
+.welcome a{
+    color: #ff8b00;
+}
+
+.pop-cont{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.pop-cat{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    border: 3px solid #F7F7F7;
+    position: relative;
+}
+
+.pop-cat-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    z-index: 3;
+}
+
+.pop-cat-cover h3{
+    
+    color: #fff;
+    background-color: rgba(238, 90, 47, 0.7);
+    padding: 2%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #000;
+    transform: translatey(50%);
+    
+}
+
+.pop-cat img{
+object-fit: contain;
+height: 100%;
+width: 100%;
+}
+
+.pop-button{
+    width: 50%;
+    margin: 15% auto;
+    padding: 2%;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: rgb(238, 90, 47);
+    border: 1px solid rgb(238, 90, 47);
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+    
