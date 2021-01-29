@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Oxygen&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
 body{
 background-color: #F7F7F7;
@@ -24,12 +24,12 @@ h1,h2,h3,h4,h5,h6{
 .carousel-caption{
     position: absolute;
     max-width: 40%;
-    max-height: 30%;
+    max-height: 25%;
     text-align: center;
     top: 60%;
     left: 10%;
     background-color: rgba(238, 90, 47, 0.7);
-    border: 2px solid rgba(0,0,0,0.5);
+    border-style: hidden;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
     padding: 1%;
@@ -37,8 +37,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .carousel-caption h5{
+    color: #fff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
     font-size: 3em;
     padding: 0;
     margin: 0;
