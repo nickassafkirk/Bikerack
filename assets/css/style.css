@@ -1,13 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Oxygen&display=swap');
+
 body{
-    background-color: #F7F7F7;
+background-color: #F7F7F7;
+font-family: 'Oxygen', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cairo', sans-serif;
+}
+
+.carousel-item{
+    height: 60vh;
+    width: 100vw;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+.carousel-caption{
+    position: absolute;
+    max-width: 40%;
+    max-height: 30%;
+    text-align: center;
+    top: 60%;
+    left: 10%;
+    background-color: rgba(238, 90, 47, 0.7);
+    border: 2px solid rgba(0,0,0,0.5);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 1%;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+}
+
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption p{
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
 }
 
 .intro{
     text-align: center;
     Margin: 20px auto 50px auto;
-    width: 75%;
+    width: 75%
 }
-
 .imagetile a img{
     height: 100%;
     width: 100%;
@@ -49,11 +97,13 @@ body{
 }
 
 .pop-cat{
-    height: 250px;
-    width: 100%;
+    position: relative;
+}
+
+.pop-cat{
     background-color: white;
     border: 3px solid #F7F7F7;
-    position: relative;
+    padding: 0;
 }
 
 .pop-cat-cover{
@@ -62,40 +112,153 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.1);
     text-align: center;
     z-index: 3;
 }
 
+.pop-cat-cover:hover{
+    background-color: rgba(238, 90, 47, 0.5);
+}
+
 .pop-cat-cover h3{
-    
     color: #fff;
-    background-color: rgba(238, 90, 47, 0.7);
+    position: relative;
+    top: 40%;
+    left: 0%;
     padding: 2%;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 3em;
     text-shadow: 2px 2px 2px #000;
-    transform: translatey(50%);
-    
 }
 
 .pop-cat img{
-object-fit: contain;
+object-fit: cover;
 height: 100%;
 width: 100%;
 }
 
-.pop-button{
+.button,.pop-button{
     width: 50%;
-    margin: 15% auto;
+    position: static;
+    margin: 0 auto;
     padding: 2%;
     color: white;
     font-size: 1.2em;
     font-weight: 500;
-    background-color: rgb(238, 90, 47);
+    background-color: #ee5a2f;
     border: 1px solid rgb(238, 90, 47);
     border-radius: 3px;
     text-transform: uppercase;
+
 }
-    
+.pop-button{
+    position: relative;
+    top: 40%; 
+}
+
+.racks h2{
+color: #ff8b00;
+padding-bottom: 1rem;
+}
+
+a.button{
+    width: 100%;
+    margin-top: 3%;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+a.button:hover{
+    font-size: 1.5em;
+}
+
+.img-4,.rack-img{
+    padding: 0%;    
+}
+
+.img-4 img{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.service{
+    width: 90%;
+    margin: 5% auto;
+}
+
+.rack-cont{
+    margin-top: 0;
+    margin-bottom: 150px;
+}
+
+.rack-img.middle{
+    border-left: 5px solid #F7F7F7;
+    border-right: 5px solid #F7F7F7;
+    border-top: 0px;
+    border-bottom: 0px;  
+}
+
+.rack-img img{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
+}
+
+.cat-below{
+    background-color: #292621;
+    color: white;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+}
+
+.rack-cat{
+    position: relative;
+}
+
+.rack-cat-over{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+}
+
+.rack-cat-over div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.rack-cat-over:hover{
+    display: block;
+}
+
+.rack-cat a{
+    text-decoration: none;
+}
+
+.sec-heading{
+    background-color: rgb(238, 90, 47);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+
